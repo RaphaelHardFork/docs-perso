@@ -48,19 +48,15 @@ Des options peuvent être ajoutée comme `ls -filah` pour afficher les dossiers 
 1. Créer un "repository" sur GitHub
 2. Créer un dossier du même nom sur Unbuntu
 3. *(optionnel mais recommandé)* Créer un fichier README.md :
-
-`echo "# Début du README" >> README.md`
+  `echo "# Début du README" >> README.md`
 4. Initialisation avec GitHub :
-
-`git init`
-
-Rendu : `Initialized empty Git repository in /home/raphael/alyra/TEST/.git/`
+  `git init`
+  Rendu : `Initialized empty Git repository in /home/raphael/alyra/TEST/.git/`
 5. Ajouter le README.md au dossier :
-`git add README.md`
+  `git add README.md`
 6. Valider les modifications faites (l'ajout du README.md) :
-
-`git commit -m "Message annexe à la modification"`
-
+  `git commit -m "Message annexe à la modification"`
+  
 Rendu : `[master (root-commit) cb0bef6] Message annexe à la modification
  1 file changed, 1 insertion(+)
  create mode 100644 README.md`
