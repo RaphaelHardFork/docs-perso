@@ -47,9 +47,9 @@ Des options peuvent être ajoutée comme `ls -filah` pour afficher les dossiers 
 
 1. Créer un "repository" sur GitHub  
 2. Créer un dossier du même nom sur Unbuntu  
-3. *(optionnel mais recommandé)* Créer un fichier README.md :  `echo "# Début du README" >> README.md`
+3. *(optionnel mais recommandé)* Créer un fichier README.md :   `echo "# Début du README" >> README.md`
 4. Initialisation avec GitHub :  
-  `git init`
+  `git init`  
   Rendu : `Initialized empty Git repository in /home/raphael/alyra/TEST/.git/`
 5. Ajouter le README.md au dossier :  
   `git add README.md`
@@ -60,6 +60,6 @@ Des options peuvent être ajoutée comme `ls -filah` pour afficher les dossiers 
  7. Association à la branche principale de GitHub (main) :  `git branch -M main`
 
 8. `git remote add origin https://github.com/RaphaelHardFork/TEST.git`
-9. Transmettre les modifications à GitHub  `git push -u origin main`  **Username & password GitHub requis**  Rendu : `Enumerating objects: 3, done.`  `Counting objects: 100% (3/3), done.`  `Writing objects: 100% (3/3), 252 bytes | 126.00 KiB/s, done.`  `Total 3 (delta 0), reused 0 (delta 0)`  `To https://github.com/RaphaelHardFork/TEST.git`  ` * [new branch]      main -> main`  `Branch 'main' set up to track remote branch 'main' from 'origin'.` 
+9. Transmettre les modifications à GitHub  `git push -u origin main`     **Username & password GitHub requis**  Rendu : `Enumerating objects: 3, done.`  `Counting objects: 100% (3/3), done.`  `Writing objects: 100% (3/3), 252 bytes | 126.00 KiB/s, done.`  `Total 3 (delta 0), reused 0 (delta 0)`  `To https://github.com/RaphaelHardFork/TEST.git`  ` * [new branch]      main -> main`  `Branch 'main' set up to track remote branch 'main' from 'origin'.` 
 
 L'initialisation est ok
