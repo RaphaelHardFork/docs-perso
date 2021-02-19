@@ -9,8 +9,8 @@ C => G
 G => C
 
 Ensuite la machinerie cellulaire traduit la séquence ARN par ensemble de 3 bases. 
-Cette dernière prendre par exemple UAG ou bien AUC puis les traduit en un acide aminé.
-Dans notre cas ces ensembles de 3 bases traduisent des lettres, chiffres ou symboles.
+Cette dernière prendre par exemple UAG ou bien AUC puis les traduit en UN acide aminé.
+Dans notre cas ces ensembles de 3 bases traduisent UNE lettre, UN chiffre ou UN symbole.
 */
 
 
