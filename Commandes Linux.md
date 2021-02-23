@@ -66,14 +66,14 @@ Des options peuvent être ajoutée comme `ls -filah` pour afficher les dossiers 
 9. Transmettre les modifications à GitHub  
 `git push -u origin main`  
 **Username & password GitHub requis**  
-Rendu : `Enumerating objects: 3, done.`  `Counting objects: 100% (3/3), done.`  `Writing objects: 100% (3/3), 252 bytes | 126.00 KiB/s, done.`  `Total 3 (delta 0), reused 0 (delta 0)`  `To https://github.com/RaphaelHardFork/TEST.git`  ` * [new branch]      main -> main`  `Branch 'main' set up to track remote branch 'main' from 'origin'.` 
+Rendu : `Enumerating objects: 3, done.`  `Counting objects: 100% (3/3), done.`  `Writing objects: 100% (3/3), 252 bytes | 126.00 KiB/s, done.`  `Total 3 (delta 0), reused 0 (delta 0)`  `To https://github.com/RaphaelHardFork/TEST.git`  ` * [new branch]      main -> main`  `Branch 'main' set up to track remote branch 'main' from 'origin'.`    
+
+L'initialisation est ok
 
 ### Créer un clone sur GitHub
 1. Appuyer sur fork sur un repo sur GitHub  
 Le dossier est copier sur GitHub
 2. Go Code puis copier dans le press papier le lien
-3. Aller dans le terminal, dans le dossier où l'on veut coller le dossier
+3. Aller dans le terminal, dans le dossier où l'on veut coller le dossier  
 Taper la commande `git clone https://leliencopiercidessus`   
 Le dossier est copier en local
-
-L'initialisation est ok
