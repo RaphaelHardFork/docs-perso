@@ -11,7 +11,7 @@ Pour chaque icone mettre dans le `<body>`:
 ## Lien pour les icones
 
 ### Facebook
-**square**  
+**Square**  
 `<span class="fab fa-facebook-square"></span>`  
 **Nude**  
 `<span class="fab fa-facebook-f"></span>`  
@@ -21,11 +21,11 @@ Pour chaque icone mettre dans le `<body>`:
 ### Twitter
 **Nude**  
 `<span class="fab fa-twitter"></span>`  
-**square**  
+**Square**  
 `<span class="fab fa-twitter-square"></span>`  
 
 ## LinkedIn
 **Nude**  
 `<span class="fab fa-linkedin-in"></span>`  
-**square**  
+**Square**  
 `<span class="fab fa-linkedin"></span>`  
