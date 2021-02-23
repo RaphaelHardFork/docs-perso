@@ -1,30 +1,31 @@
-# Structure type
-Dans le `<head>`:  
+# Comment mettre des icones via Font Awesome  
+## Structure type
+A mettre dans le `<head>`:  
 
 `<script src="https://kit.fontawesome.com/52d5431c78.js" crossorigin="anonymous"></script>`
 
-Dans le `<body>`:
+Pour chaque icone mettre dans le `<body>`:
 
 `<a href="https://lien.com" target=_blank rel="noopener noreffer">COPY SPAN BELOW</a>`
 
-# Lien pour les icones
+## Lien pour les icones
 
-## Facebook
-Square  
+### Facebook
+**square**  
 `<span class="fab fa-facebook-square"></span>`  
-Nude  
+**Nude**  
 `<span class="fab fa-facebook-f"></span>`  
-Ring  
+**Ring**  
 `<span class="fab fa-facebook"></span>`  
 
-## Twitter
-Nude  
+### Twitter
+**Nude**  
 `<span class="fab fa-twitter"></span>`  
-Square  
+**square**  
 `<span class="fab fa-twitter-square"></span>`  
 
 ## LinkedIn
-Nude  
+**Nude**  
 `<span class="fab fa-linkedin-in"></span>`  
-Square  
+**square**  
 `<span class="fab fa-linkedin"></span>`  
