@@ -6,10 +6,10 @@ A mettre dans le `<head>`:
 
 Pour chaque icone mettre dans le `<body>`:
 
-`<a href="https://lien.com" target=_blank rel="noopener noreffer">COPY SPAN BELOW</a>`
+`<a aria-label="Mon profil..." href="https://lien.com" target=_blank rel="noopener noreffer">COPY SPAN BELOW</a>`
 
 ## Lien pour les icones
-
+Les codes sont de bases intégrés par un `<i>` mais cela marche avec un `<span>`
 ### Facebook
 **Square**  
 `<span class="fab fa-facebook-square"></span>`  
