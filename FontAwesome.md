@@ -1,4 +1,4 @@
-# Comment mettre des icones via Font Awesome  
+# Comment mettre des icones via [Font Awesome](https://fontawesome.com/)  
 ## Structure type
 A mettre dans le `<head>`:  
 
@@ -24,8 +24,27 @@ Les codes sont de bases intégrés par un `<i>` mais cela marche avec un `<span>
 **Square**  
 `<span class="fab fa-twitter-square"></span>`  
 
-## LinkedIn
+### LinkedIn
 **Nude**  
 `<span class="fab fa-linkedin-in"></span>`  
 **Square**  
 `<span class="fab fa-linkedin"></span>`  
+### Telegram   
+**Ring**   
+`<span class="fab fa-telegram"></span>`   
+**Nude**   
+`<span class="fab fa-telegram-plane"></span>`   
+    
+### GitHub   
+**Ring**   
+`<span class="fab fa-github"></span>`   
+**Square**   
+`<span class="fab fa-github-square"></span>`   
+  
+### Mail  
+**Square**  
+`<span class="fas fa-envelope-square"></span>`  
+**Nude**  
+`<span class="fas fa-envelope"></span>`  
+
+
