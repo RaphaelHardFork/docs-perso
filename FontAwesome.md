@@ -47,4 +47,9 @@ Les codes sont de bases intégrés par un `<i>` mais cela marche avec un `<span>
 **Nude**  
 `<span class="fas fa-envelope"></span>`  
 
+### Discord  
+<span class="fab fa-discord"></span>  
+
+### 
+
 
