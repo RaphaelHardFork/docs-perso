@@ -1,17 +1,43 @@
 # Commandes Linux
 
-## Commandes installation & mise à niveau
-Mise à niveau de Unbuntu 20.04 : `sudo apt update && sudo apt upgrade`
+## Création   
+Installation machine :  
+Suivre ce tutoriel :  https://docs.microsoft.com/en-us/windows/wsl/install-win10  
+(création de l'utilisateur)  
+
+Personalisation du terminal : voir dans "setting.json"
+
+## Commandes installation machine & mise à niveau
+Mise à niveau de Unbuntu 20.04 : `sudo apt update && sudo apt upgrade`  
 `sudo` permet de passer en mode Super utilisateur
 
-Installation de NVM : `curl-o-https://raw.githubusercontent.com/creationix/nvm/v0.31.3/install.sh|bash`
-`curl` permet de télécharger le fichier du lien qui suit.
-`| bash` permet d'executer le fichier une fois téléchargé.
+**Installation de NVM :**   
+Lien pour l'installation : https://github.com/nvm-sh/nvm   
+`curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash`   
 
+Fermer et reouvrir le Terminal !  
 
-Puis `nvm on` permet d'activer NVM (activé par défault) et voir les commandes asociées
+Vérifier l'installation :   
+`command -v nvm` => `nvm`   
 
-Installation de Node : `nvm install node` permet d'installer la dernière version stable de Node
+Activation de NVM et affichage des options :   
+`nvm on`  
+
+Installation de NODE.js :  
+`nvm install node`  
+
+Liaison VS Code à WSL 2 :  
+Extensions => installer **Remote - WSL**  
+Dans le terminal => `code .`  
+
+## Paramètres VS Code
+### Paramètres
+- tab size
+- format on save
+
+### Extensions
+- Code Runner
+- Live Server
 
 
 ## Commandes de gestion des répertoires
@@ -43,6 +69,10 @@ Des options peuvent être ajoutée comme `ls -filah` pour afficher les dossiers 
 `node [nomdufichier.extension]` permet d'executer le fichier sélectionné.
 
 ## Commandes concernant GitHub
+https://github.com/AbsoluteVirtueXI/blockchain-courses/blob/master/programming/02-setup-dev-environment.md 
+### Configuration de git
+`git config --global user.name "Your Github username"`
+`git config --global user.email "youremail@domain.com"`
 ### Créer un dossier lié à GitHub
 
 1. Créer un "repository" sur GitHub  
@@ -77,3 +107,21 @@ Le dossier est copier sur GitHub
 3. Aller dans le terminal, dans le dossier où l'on veut coller le dossier  
 Taper la commande `git clone https://leliencopiercidessus`   
 Le dossier est copier en local
+
+
+## Installation de Yarn
+https://github.com/AbsoluteVirtueXI/blockchain-courses/blob/master/node/1-node-introduction.md 
+### Installation global de Yarn
+`npm install -g yarn`  
+
+Verification de la version :  
+`yarn --version`
+
+### Initiation d'un package avec yarn
+Dans le dossier du package en cours de création : `yarn init -y`
+
+Ajouter un fichier .gitignore :  
+`echo "node_modules">>.gitignore`  
+Ajouter un code plus complet dans le .gitignore : https://github.com/github/gitignore/blob/master/Node.gitignore 
+
+Utiliser `git add .` pour ajouter le README.md, .gitignore et le package.json
