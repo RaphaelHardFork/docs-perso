@@ -3,8 +3,8 @@
 Quelques commandes Linux pour les bases, l'installation et GitHub
 - [FontAwesome.md](https://github.com/RaphaelHardFork/GitHub/blob/main/FontAwesome.md)  
 Liste des icones à mettre dans un fichier .html 
-- [crackmeRaphIn.js](https://github.com/RaphaelHardFork/GitHub/blob/main/crackmeRaphIn.js)   
-Exercice de déchiffrement d'un code ADN (si si :wink:)
+- [GoogleFonts](https://github.com/RaphaelHardFork/docs-perso/blob/main/googleFonts.md)   
+Mini-tuto pour implémenter des fonts depuis GoogleFonts
 
 
 
